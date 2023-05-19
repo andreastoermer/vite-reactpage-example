@@ -8,8 +8,10 @@ const cellPlugins = [slate()];
 
 function App() {
   const [value, setValue] = useState<Value | null>(null);
+  
   return (
     <div><Editor cellPlugins={cellPlugins} value={value} onChange={setValue} /></div>
+//  <div>Test</div>
   )
 }
 
