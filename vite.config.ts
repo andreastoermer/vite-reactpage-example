@@ -10,5 +10,4 @@ export default defineConfig({
       "react/jsx-dev-runtime.js": "react/jsx-dev-runtime"
     }
   }
-
 })
